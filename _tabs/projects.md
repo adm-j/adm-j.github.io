@@ -6,12 +6,13 @@ permalink: /projects/
 ---
 
 - ## Work
-  - [ViPER](/projects/work/viper/)
-  - [Garden Vets](/projects/work/garden-vets/)
+
+  - [ViPER]({% link projects/work/viper.md %})
+  - [Garden Vets]({% link projects/work/garden-vets.md %})
 
 [//]: # (  - [Planet Wellbeing]&#40;/projects/work/planet-wellbeing&#41;)
 
 - ## Personal
-  - [Pokémon Emerald JS](/projects/personal/pokemon-emerald-js)
+  - [Pokémon Emerald JS]({% link projects/personal/pokemon-emerald-js.md %})
 
 WIP - More content to be added...
