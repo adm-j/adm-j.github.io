@@ -8,6 +8,6 @@ we built is used for users to sign up, taking in information on pets and the own
 subscribe, of which the subscription is calculated based on the information provided. I contributed to front end and
 back end functionality, as well as deployment and bridging between other third party services.
 
-[Web App](https://app.gardenvets.com/)
+[Page](https://app.gardenvets.com/)
 
 ![garden-vets](/assets/img/work/garden-vets/garden-vets.png)

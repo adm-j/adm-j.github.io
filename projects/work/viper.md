@@ -10,7 +10,9 @@ for interactive multiplayer sessions between a coach and players in VR, allowing
 Included is the ability to upload matches using Opta data, allowing for playback on the interactive board or in VR to
 replay moments from a game.
 
-My contribution was building the web portal, alongside most of the backend functionality.
+My contribution was building the web portal, alongside most of the backend functionality. This included the implementation
+of uploads, rewriting the subscription system and one thing I'm particuarly proud of, our system for streaming data to
+allow playback of clips, which includes clips from data of live games.
 
 [See the Portal here](https://portal.futureperformance.tech/)
 &emsp;

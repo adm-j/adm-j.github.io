@@ -13,4 +13,11 @@ mainly UI work, so I decided to leave it here.
 &emsp;
 [Demo](https://pokemon-emerald-js.web.app/)
 
-![game](/assets/img/personal/pokemon-emerald-js/game.png)
+[//]: # (![game]&#40;/assets/img/personal/pokemon-emerald-js/game.png&#41;)
+
+<div style="max-width: 400px; margin: 0 auto;">
+<video width="100%" controls autoplay loop muted>
+  <source src="/assets/img/personal/pokemon-emerald-js/pkmn.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+</div>
