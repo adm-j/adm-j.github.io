@@ -1,0 +1,39 @@
+{
+  "name": "Astro portfolio site",
+
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+
+  "runArgs": [
+    "--userns=keep-id:uid=1000,gid=1000",
+    "-p", "4321:4321"
+  ],
+
+  "remoteUser": "dev",
+  "updateRemoteUserUID": true,
+
+  "containerEnv": {
+    "SHELL": "/usr/bin/zsh"
+  },
+
+  "forwardPorts": [
+    4321,
+    5173
+  ],
+
+  "portsAttributes": {
+    "4321": {
+      "label": "Astro Dev Server",
+      "onAutoForward": "notify"
+    },
+    "5173": {
+      "label": "Vite",
+      "onAutoForward": "notify"
+    }
+  }
+}
