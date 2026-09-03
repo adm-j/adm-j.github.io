@@ -13,19 +13,19 @@ export default defineConfig({
     fonts: [
         {
             provider: fontProviders.local(),
-            name: 'Atkinson',
-            cssVariable: '--font-atkinson',
+            name: 'OpenSans',
+            cssVariable: '--font-opensans',
             fallbacks: ['sans-serif'],
             options: {
                 variants: [
                     {
-                        src: ['./src/assets/fonts/atkinson-regular.woff'],
+                        src: ['./src/assets/fonts/OpenSans-Regular.ttf'],
                         weight: 400,
                         style: 'normal',
                         display: 'swap',
                     },
                     {
-                        src: ['./src/assets/fonts/atkinson-bold.woff'],
+                        src: ['./src/assets/fonts/OpenSans-Bold.ttf'],
                         weight: 700,
                         style: 'normal',
                         display: 'swap',

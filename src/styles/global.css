@@ -19,6 +19,8 @@
 }
 
 html.dark {
+	--accent: #60a5fa;
+	--accent-dark: #93c5fd;
 	--black: 248, 250, 252;
 	--gray-dark: 222, 228, 238;
 	--gray: 150, 170, 195;
@@ -45,7 +47,7 @@ html.dark .moon-icon {
 	display: none;
 }
 body {
-	font-family: var(--font-atkinson);
+	font-family: var(--font-opensans);
 	margin: 0;
 	padding: 0;
 	text-align: left;

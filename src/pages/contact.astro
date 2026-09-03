@@ -1,12 +1,12 @@
 ---
 import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
 import Layout from '../layouts/BlogPost.astro';
+import { PAGE_TITLE } from '../consts.ts';
 ---
 
 <Layout
-	title="About Me"
+	title={PAGE_TITLE.contact}
 	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
 	heroImage={AboutHeroImage}
 >
 	<p>
