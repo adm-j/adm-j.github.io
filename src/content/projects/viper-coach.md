@@ -1,25 +1,20 @@
 ---
-title: 'Viper Coach'
-description: 'Lorem ipsum dolor sit amet'
+title: 'ViPER Coach'
+description: 'Viper Coach VR'
 heroImage: '../../assets/projects/viper/viper-coach2.png'
 order: 2
 ---
 
-ViPER refers to a VR app for assisting in training and coaching soccer players. It started as a series of exercises
-done within VR for collecting data on things such as head tracking, which are then viewable within a web portal with
-the ability to compare and analyse performance. Later this would go on to include ViPER Coach, a variant that allows
-for interactive multiplayer sessions between a coach and players in VR, allowing for coaching within a VR environment.
-Included is the ability to upload matches using Opta data, allowing for playback on the interactive board or in VR to
-replay moments from a game.
+ViPER Coach is a VR oriented system which began as training exercises in VR for collecting data on head tracking to
+a multiplayer, VR coaching app that allows you to record, playback and view sequences from games, including the ability
+to upload live Opta data from Premier league games to playback using our system.
 
-My contribution was building the web portal, alongside most of the backend functionality. This included the implementation
-of uploads, rewriting the subscription system and one thing I'm particuarly proud of, our system for streaming data to
-allow playback of clips, which includes clips from data of live games.
-
-[See the Portal here](https://portal.futureperformance.tech/)
+I worked on the frontend portal, which was used for creating and linking an account with your VR headset for collecting
+and comparing data with other users. I also contributed considerable work on the backend, creating new features and bug fixes,
+including the implementation for handling uploads and optimisation of how our APIs handled and sent large amounts of data.
 
 
-[Future Performance Tech](https://futureperformance.tech/)
+The project isn't currently live, but you can check [Future Performance Tech](https://futureperformance.tech/) for updates.
 
 
 ![viper-coach](../../assets/projects/viper/viper-coach.png)
